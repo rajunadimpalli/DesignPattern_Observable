@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern_Observable", "DesignPattern_Observable\DesignPattern_Observable.csproj", "{17739710-12D6-45B8-9C76-DD2D7051C465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer_StructuredSample", "Observer_StructuredSample\Observer_StructuredSample.csproj", "{E0417240-869B-4A29-A172-3BD66D97C43B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Behavioral-Observer", "2. Behavioral-Observer", "{3BB59DAD-F03A-4161-87C9-725BEDF703EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Creational Patterns", "1. Creational Patterns", "{275C888B-9469-4506-B1D2-EA8034C86AB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Structural Patterns", "3. Structural Patterns", "{510B8AD3-6A1E-465C-A443-19696675B77D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{E4A70EA6-2343-486E-A678-25BE178A45A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.NETOptimized", "Observer.NETOptimized\Observer.NETOptimized.csproj", "{2F57805D-9005-4D66-847D-E5E86D4D5B5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17739710-12D6-45B8-9C76-DD2D7051C465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17739710-12D6-45B8-9C76-DD2D7051C465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17739710-12D6-45B8-9C76-DD2D7051C465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17739710-12D6-45B8-9C76-DD2D7051C465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0417240-869B-4A29-A172-3BD66D97C43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0417240-869B-4A29-A172-3BD66D97C43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0417240-869B-4A29-A172-3BD66D97C43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0417240-869B-4A29-A172-3BD66D97C43B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F57805D-9005-4D66-847D-E5E86D4D5B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F57805D-9005-4D66-847D-E5E86D4D5B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F57805D-9005-4D66-847D-E5E86D4D5B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F57805D-9005-4D66-847D-E5E86D4D5B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17739710-12D6-45B8-9C76-DD2D7051C465} = {E4A70EA6-2343-486E-A678-25BE178A45A3}
+		{E0417240-869B-4A29-A172-3BD66D97C43B} = {E4A70EA6-2343-486E-A678-25BE178A45A3}
+		{E4A70EA6-2343-486E-A678-25BE178A45A3} = {3BB59DAD-F03A-4161-87C9-725BEDF703EF}
+		{2F57805D-9005-4D66-847D-E5E86D4D5B5A} = {E4A70EA6-2343-486E-A678-25BE178A45A3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15113C64-3C2D-4A88-B8F0-C7193F06271A}
+	EndGlobalSection
+EndGlobal
